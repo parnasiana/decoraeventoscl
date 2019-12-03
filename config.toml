@@ -1,0 +1,15 @@
+baseURL = "https://decoraeventos.cl"
+languageCode = "en-us"
+title = "Decora Eventos"
+theme = "resto-hugo"
+
+# Theme specific configuration
+[params]
+logo = ""
+enableDisqus = true # enable / disable comments for blog posts
+enableGA = true # enable / disable google analytics
+heroText = "Tenemos todo lo que tu evento podría necesitar"
+footerText = "Tenemos todo lo que tu evento podría necesitar"
+facebook = "https://facebook.com"
+twitter = "https://twitter.com"
+instagram = "https://instagram.com"
