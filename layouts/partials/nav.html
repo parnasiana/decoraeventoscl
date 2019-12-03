@@ -1,4 +1,4 @@
- <div id="side-nav" class="sidenav">
+<div id="side-nav" class="sidenav">
         <a href="javascript:void(0)" id="side-nav-close">&times;</a>
         
         <div class="sidenav-content">
@@ -40,54 +40,37 @@
             </button>
     
             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-between">
-                    <li class="nav-item only-desktop">
-                        <a class="nav-link" id="side-nav-open" href="#">
-                            <span class="fa fa-bars"></span>
-                        </a>
-                    </li>
-                    <div class="d-flex flex-lg-row flex-column">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-welcome">About</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-menu">Menu</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Specials</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="{{ .Site.BaseURL }}#gtco-special-dishes">Beef Steak Sauce</a>
-                              <a class="dropdown-item" href="{{ .Site.BaseURL }}#gtco-special-dishes">Salmon Zucchini</a>
-                            </div>
-                        </li>
-                    </div>
-                </ul>
-                
-                <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <a class="navbar-brand d-flex align-items-center only-desktop" href="#">
                     <img src="{{.Site.Params.logo | absURL }}" alt="">
                 </a>
                 <ul class="navbar-nav d-flex justify-content-between">
-                    <div class="d-flex flex-lg-row flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link" href="{{ .Site.BaseURL }}blog">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link" href="{{ .Site.BaseURL }}tags">Tags</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-reservation">Reservation</a>
-                        </li>
-                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item">
-                        <a id="side-search-open" class="nav-link" href="#">
-                            <span class="lnr lnr-magnifier"></span>
-                        </a>
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-welcome">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-menu">Arriendos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estilos</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ .Site.BaseURL }}#gtco-special-dishes">Moderno</a>
+                            <a class="dropdown-item" href="{{ .Site.BaseURL }}#gtco-special-dishes">Clásico</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-team">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="{{ .Site.BaseURL }}blog">Nuestros Socios</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="{{ .Site.BaseURL }}tags">Comentarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-reservation">Conversemos</a>
                     </li>
                 </ul>
             </div>
