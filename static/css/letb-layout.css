@@ -15,6 +15,18 @@
     text-align: right;
 }
 
+.hero-carousel .owl-prev, .hero-carousel .owl-next {
+    width: 60px;
+    height: 60px;
+    border-right: none;
+}
+
+.owl-nav {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+}
+
 }
 
 @media (min-width: 992px) {

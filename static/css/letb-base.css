@@ -38,5 +38,22 @@ a:hover {
     background-color: #fff;
     border-color: rgb(100, 100, 100);
     color: #000;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 40px;
+    color:#fff;
+}
+
+.owl-prev, .owl-next {
+    background-color: rgba(255, 255, 255, 0.253) !important;
+    border-radius: 100%;
+}
+
+.subheading {
+    color:  rgb(100, 100, 100);
+}
+
+
 
 
