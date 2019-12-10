@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Decora Eventos</title>
-    <link>https://decoraeventos.cl/tags/</link>
+    <link>https://de.letb.cl/tags/</link>
     <description>Recent content in Tags on Decora Eventos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://decoraeventos.cl/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://de.letb.cl/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
